@@ -1,0 +1,73 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#i{
+     font-family: 'Times New Roman', Times, serif;
+     color: brown;
+}
+button{
+   align-items: center;
+   background-color: rgb(36, 255, 109);
+width: 100px;
+height: 100px;
+border: 5px  double;
+border-radius: 50%;
+    padding: 0;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 50px;
+    font-size: xx-large;
+    position: relative;
+    top:-80px;
+    right: 20px;
+}
+body{
+     
+     background-image: url(picture/photo_29_2025-08-26_10-13-06.jpg);
+     background-repeat: no-repeat;
+     background-position:50%;
+     background-size: 100%;
+     max-width:none;
+     
+}
+p{
+    text-align: center;
+    border:1px dashed darkturquoise;
+    width: max-content;
+    
+}
+a{
+    color:black;
+    text-decoration:none;
+    padding: 0%;
+}
+a:hover {
+    /* background-color: rgb(255, 255, 255); */
+    color:rgb(10, 73, 73);
+}
+header ul{
+ display: flex;
+ list-style: none;
+ align-content: center ;
+ justify-content: center ;
+ 
+ background-color: aquamarine;
+}
+header ul ul li {
+    margin-right: 50px ;
+    display: none;
+}
+header ul li{
+    margin-right: 10vw ;
+   display: flex ;
+margin-bottom: 5px ;
+ align-content: center ;
+ justify-content: center ;
+ /* text-decoration: underline ; */
+ background-color: aquamarine ;
+}
+ header:hover ul ul li{
+    
+ }
